@@ -1,0 +1,62 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+.register {
+    width: 250px;
+    height: 7vh;
+    padding: 6px;
+    margin: 15px;
+    border-radius: 8px;
+    list-style: none;
+    text-decoration: none;
+    font-size:20px;
+}
+.lists{
+    display:flex;
+    margin-top:300px;
+    margin:10px;
+    list-style:none;
+    text-decoration:none;
+}
+.login {
+    width: 250px;
+    height: 7vh;
+    padding: 6px;
+    margin: 15px;
+    border: 2px solid blue;
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 8px;
+}
+.boost {
+    margin-top: 200px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-weight: 200;
+    margin-left: 10px;
+    font-size: 37px;
+}
+.item{
+    display:flex;
+}
+.item1{
+    flex:1;
+}
+.item2{
+    flex:1;
+}

@@ -1,0 +1,27 @@
+﻿@model VidlyApp.View_Model.RegisterViewModel;
+
+
+@{
+    ViewBag.Title = "Register Users";
+}
+<h2>Signup Page</h2>
+<div>
+    <form method="post" asp-action="Register">
+         <div asp-validation-summary="All" class="text-danger"></div>
+        <div class="form-group">
+            <div>
+                <label asp-for="Email"></label>
+                <input type="email" asp-for="Email" class="form-control"/>   
+            </div>
+            <div>
+                <label asp-for="Password"></label>
+                <input type="password" asp-for="Password" class="form-control"/>
+            </div>
+            <div>
+                <label asp-for="ConfirmPassword"></label>
+                <input type="password" asp-for="ConfirmPassword" class="form-control"/>
+            </div>
+            <button type="submit" class="btn btn-primary">Register</button>
+        </div>
+    </form>
+</div>
